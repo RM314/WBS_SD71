@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: lightblue;
+  font-family: "MS Sans Serif", Arial, sans-serif;
+}
+
+/* Fenster */
+.window {
+  width: 420px;
+  background: #c0c0c0;
+  padding: 2px;
+  margin: 2rem;
+
+  box-shadow:
+    -1px -1px 0 #ffffff,
+     1px  1px 0 #808080,
+     2px  2px 0 #404040;
+}
+
+/* Titelleiste */
+.border {
+  height: 24px;
+  padding: 3px 6px;
+  margin-bottom: 16px;
+
+  background: linear-gradient(to right, #000080, #7aa7e6);
+  color: white;
+  font-size: 14px;
+}
+
+.title {
+  line-height: 18px;
+}
+
+/* Inhalt */
+.content {
+  padding: 8px;
+}
+
+/* Icon + Text */
+.content img {
+  float: left;
+  margin-right: 12px;
+  box-shadow: 1px 1px 0 #404040;
+}
+
+.content p {
+  margin-top: 4px;
+}
+
+/* Buttons */
+.actions {
+  text-align: right;
+  margin-top: 24px;
+}
+
+.actions button {
+  background: #c0c0c0;
+  border: none;
+  padding: 4px 14px;
+  font-family: inherit;
+
+  box-shadow:
+    -1px -1px 0 #ffffff,
+     1px  1px 0 #808080,
+     2px  2px 0 #404040;
+}
+
+.actions button:active {
+  box-shadow:
+    inset 1px 1px 0 #404040,
+    inset -1px -1px 0 #ffffff;
+}
